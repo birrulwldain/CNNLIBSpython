@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8693a1d0-a42f-4e5a-ad15-cd90dda07b8e" name="Changes" comment="update rapi" />
+    <list default="true" id="8693a1d0-a42f-4e5a-ad15-cd90dda07b8e" name="Changes" comment="update rapi">
+      <change afterPath="$PROJECT_DIR$/fixcode/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +157,7 @@
       <workItem from="1720883125776" duration="186000" />
       <workItem from="1720883910707" duration="980000" />
       <workItem from="1720886541361" duration="1017000" />
-      <workItem from="1720887563974" duration="3252000" />
+      <workItem from="1720887563974" duration="4676000" />
     </task>
     <task id="LOCAL-00001" summary="update rapi">
       <option name="closed" value="true" />
@@ -180,7 +183,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720889909751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update rapi">
+      <option name="closed" value="true" />
+      <created>1720890830604</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720890830604</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update rapi">
+      <option name="closed" value="true" />
+      <created>1720891115938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720891115938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolsProjectConfig">
