@@ -10,15 +10,10 @@ from fixcode.FitVoight import FitVoight
 # Fungsi untuk membaca file ASC
 def read_asc_file(dataasc):
     file_path = f"data/{dataasc}"
-    data = np.loadtxt(
-        file_path, skiprows=0
-    )  # Membaca file ASC, melewati baris pertama jika perlu
+    data = np.loadtxt(file_path, skiprows=0)
     wavelength = data[:, 0]
     intensity = data[:, 1]
     return wavelength, intensity
-
-
-dataasc = "GRUP 1_SAMPEL 1_D 0.2 us_skala 5_2.asc"
 
 
 # Fungsi untuk menghitung noise
@@ -27,8 +22,7 @@ def estimate_noise(intensity):
     return noise
 
 
-# File ASC yang akan dibaca
-
+dataasc = "GRUP 1_SAMPEL 1_D 0.2 us_skala 5_2.asc"
 
 # Membaca data spektral dari file ASC
 wavelength, intensity = read_asc_file(dataasc)
@@ -37,9 +31,7 @@ wavelength, intensity = read_asc_file(dataasc)
 noise = estimate_noise(intensity)
 
 # Temukan puncak-puncak dalam spektrum
-peaks, properties = find_peaks(
-    intensity, height=noise * 3
-)  # Hanya puncak dengan S/N >= 3
+peaks, properties = find_peaks(intensity, height=noise * 3)
 
 # Inisialisasi variabel untuk menyimpan puncak tertinggi
 highest_peak_intensity = 0
@@ -63,6 +55,12 @@ for peak_index in peaks:
             highest_peak_intensity = max(y)
             highest_peak_index = peak_index
 
+plt.xlabel("Panjang Gelombang (nm)")
+plt.ylabel("Intensitas")
+plt.legend()
+plt.title("Fitting Voigt untuk Setiap Puncak dengan S/N >= 3")
+plt.show()
+
 
 # Fungsi untuk menghitung residuals
 def calculate_residuals(y, y_fit):
@@ -74,7 +72,7 @@ def calculate_chi_squared(y, y_fit, errors):
     return np.sum(((y - y_fit) / errors) ** 2)
 
 
-# Evaluasi hasil fitting
+# Evaluasi hasil fitting untuk setiap model
 for peak_index in peaks:
     x_gaussian, y_gaussian, fit_gaussian_curve, popt_gaussian = (
         FitGaussian.fit_gaussian_peak(wavelength, intensity, peak_index)
@@ -116,7 +114,7 @@ for peak_index in peaks:
         print(f"  Residuals: {residuals_voigt}")
         print(f"  Chi-Squared: {chi_squared_voigt}")
 
-FitVoight.fit_contoh_voigt(wavelength, intensity, peak_index)
+# Plot residuals untuk Voigt Fit pada puncak tertinggi
 if highest_peak_index != -1:
     x_voigt, y_voigt, fit_voigt_curve, _ = FitVoight.fit_voigt_peak(
         wavelength, intensity, highest_peak_index
@@ -134,7 +132,7 @@ if highest_peak_index != -1:
     )
     plt.show()
 
-FitLorentz.fit_contoh_lorentzian(wavelength, intensity, peak_index)
+# Plot residuals untuk Lorentzian Fit pada puncak tertinggi
 if highest_peak_index != -1:
     x_lorentzian, y_lorentzian, fit_lorentzian_curve, _ = (
         FitLorentz.fit_lorentzian_peak(wavelength, intensity, highest_peak_index)
@@ -143,10 +141,10 @@ if highest_peak_index != -1:
 
     plt.figure(figsize=(10, 6))
     plt.plot(
-        x_voigt,
+        x_lorentzian,
         residuals_lorentzian,
         "o-",
-        label="Residuals lorentzian Fit",
+        label="Residuals Lorentzian Fit",
         color="blue",
     )
     plt.axhline(0, color="red", linestyle="--")
@@ -154,11 +152,11 @@ if highest_peak_index != -1:
     plt.ylabel("Residuals")
     plt.legend()
     plt.title(
-        f"Residuals dari lorentzian Fit pada Puncak Tertinggi di {wavelength[highest_peak_index]:.2f} nm"
+        f"Residuals dari Lorentzian Fit pada Puncak Tertinggi di {wavelength[highest_peak_index]:.2f} nm"
     )
     plt.show()
 
-FitGaussian.fit_contoh_gaussian(wavelength, intensity, peak_index)
+# Plot residuals untuk Gaussian Fit pada puncak tertinggi
 if highest_peak_index != -1:
     x_gaussian, y_gaussian, fit_gaussian_curve, _ = FitGaussian.fit_gaussian_peak(
         wavelength, intensity, highest_peak_index
