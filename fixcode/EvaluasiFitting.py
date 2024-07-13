@@ -8,13 +8,17 @@ from fixcode.FitVoight import FitVoight
 
 
 # Fungsi untuk membaca file ASC
-def read_asc_file(file_path):
+def read_asc_file(dataasc):
+    file_path = f"data/{dataasc}"
     data = np.loadtxt(
-        file_path, skiprows=1
+        file_path, skiprows=0
     )  # Membaca file ASC, melewati baris pertama jika perlu
     wavelength = data[:, 0]
     intensity = data[:, 1]
     return wavelength, intensity
+
+
+dataasc = "GRUP 1_SAMPEL 1_D 0.2 us_skala 5_2.asc"
 
 
 # Fungsi untuk menghitung noise
@@ -24,10 +28,10 @@ def estimate_noise(intensity):
 
 
 # File ASC yang akan dibaca
-file_path = "data/Cu plate_skala 5_D 0.2 us_1.asc"
+
 
 # Membaca data spektral dari file ASC
-wavelength, intensity = read_asc_file(file_path)
+wavelength, intensity = read_asc_file(dataasc)
 
 # Estimasi noise
 noise = estimate_noise(intensity)
