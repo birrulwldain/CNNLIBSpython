@@ -1,11 +1,12 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+
 
 # Fungsi untuk membaca data dari file ASC
 def read_from_asc(filename):
     wavelengths = []
     intensities = []
-    with open(filename, 'r') as f:
+    with open(filename, "r") as f:
         # Lewati baris header
         next(f)
         for line in f:
@@ -20,20 +21,23 @@ def read_from_asc(filename):
             intensities.append(float(inten))
     return np.array(wavelengths), np.array(intensities)
 
+
 # Fungsi untuk menormalisasi data terhadap intensitas maksimum
 def normalize_max(intensities):
     return intensities / np.max(intensities)
 
+
 # Fungsi untuk menyimpan data ke file ASC
 def save_to_asc(filename, wavelengths, intensities):
-    with open(filename, 'w') as f:
+    with open(filename, "w") as f:
         f.write("Wavelength (nm)\tIntensity (normalized)\n")
         for wl, inten in zip(wavelengths, intensities):
             f.write(f"{wl}\t{inten}\n")
 
+
 # Nama file input dan output
-input_filename = 'ba6.asc'
-output_filename = 'normalized_spectrum.asc'
+input_filename = "../expdata/ba6.asc"
+output_filename = "../expdata/normalized_spectrum.asc"
 
 # Baca data dari file ASC
 wavelengths, intensities = read_from_asc(input_filename)
@@ -48,10 +52,10 @@ save_to_asc(output_filename, wavelengths, intensities_normalized)
 print(f"Data spektral yang telah dinormalisasi disimpan dalam file {output_filename}")
 
 # Visualisasi hasil normalisasi
-plt.plot(wavelengths, intensities, label='Spektrum Asli')
-plt.plot(wavelengths, intensities_normalized, label='Normalisasi Maksimum')
-plt.xlabel('Panjang Gelombang (nm)')
-plt.ylabel('Intensitas')
+plt.plot(wavelengths, intensities, label="Spektrum Asli")
+plt.plot(wavelengths, intensities_normalized, label="Normalisasi Maksimum")
+plt.xlabel("Panjang Gelombang (nm)")
+plt.ylabel("Intensitas")
 plt.legend()
-plt.title('Normalisasi terhadap Intensitas Maksimum')
+plt.title("Normalisasi terhadap Intensitas Maksimum")
 plt.show()

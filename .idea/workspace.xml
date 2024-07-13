@@ -5,7 +5,444 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8693a1d0-a42f-4e5a-ad15-cd90dda07b8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/expcode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expdata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixcode/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaI-CaII.csv" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/CaI-CaII.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Cu plate_skala 5_D 0.2 us_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cu plate_skala 5_D 0.2 us_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Cu plate_skala 5_D 1 us_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cu plate_skala 5_D 1 us_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Cu plate_skala 5_D 1 us_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/Cu plate_skala 5_D 1 us_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 10_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 10_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 10_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 10_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 10_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 10_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 11_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 11_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 11_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 11_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 11_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 11_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 12_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 12_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 12_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 12_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 12_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 12_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 13_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 13_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 13_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 13_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 13_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 13_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 14_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 14_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 14_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 14_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 14_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 14_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 15_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 15_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 15_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 15_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 15_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 15_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 16_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 16_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 16_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 16_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 16_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 16_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 17_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 17_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 17_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 17_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 17_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 17_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 18_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 18_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 18_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 18_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 18_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 18_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 19_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 19_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 19_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 19_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 19_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 19_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 1_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 1_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 1_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 1_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 1_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 1_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 20_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 20_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 20_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 20_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 20_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 20_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 2_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 2_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 2_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 2_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 2_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 2_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 3_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 3_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 3_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 3_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 3_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 3_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 4_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 4_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 4_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 4_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 4_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 4_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 5_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 5_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 5_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 5_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 5_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 5_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 6_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 6_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 6_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 6_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 6_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 6_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 7_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 7_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 7_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 7_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 7_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 7_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 8_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 8_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 8_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 8_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 8_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 8_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 9_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 9_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 9_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 9_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 1_SAMPEL 9_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 1_SAMPEL 9_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 10_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 10_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 10_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 10_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 10_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 10_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 11_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 11_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 11_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 11_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 11_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 11_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 12_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 12_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 12_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 12_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 12_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 12_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 13_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 13_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 13_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 13_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 13_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 13_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 1_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 1_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 1_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 1_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 1_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 1_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 2_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 2_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 2_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 2_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 2_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 2_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 3_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 3_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 3_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 3_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 3_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 3_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 4_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 4_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 4_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 4_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 4_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 4_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 5_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 5_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 5_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 5_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 5_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 5_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 6_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 6_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 6_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 6_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 6_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 6_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 7_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 7_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 7_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 7_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 7_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 7_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 8_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 8_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 8_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 8_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 8_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 8_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 9_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 9_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 9_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 9_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 2_SAMPEL 9_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 2_SAMPEL 9_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 10_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 10_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 10_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 10_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 10_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 10_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 11_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 11_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 11_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 11_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 11_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 11_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 12_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 12_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 12_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 12_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 12_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 12_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 13_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 13_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 13_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 13_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 13_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 13_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 14_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 14_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 14_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 14_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 14_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 14_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 15_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 15_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 15_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 15_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 15_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 15_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 16_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 16_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 16_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 16_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 16_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 16_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 17_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 17_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 17_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 17_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 17_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 17_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 18_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 18_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 18_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 18_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 18_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 18_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 19_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 19_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 19_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 19_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 19_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 19_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 1_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 1_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 1_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 1_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 1_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 1_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 20_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 20_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 20_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 20_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 20_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 20_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 2_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 2_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 2_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 2_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 2_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 2_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 3_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 3_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 3_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 3_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 3_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 3_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 4_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 4_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 4_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 4_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 4_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 4_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 5_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 5_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 5_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 5_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 5_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 5_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 7_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 7_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 7_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 7_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 7_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 7_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 8_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 8_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 8_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 8_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 8_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 8_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 3_SAMPEL 9_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 9_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 10_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 10_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 10_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 10_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 10_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 10_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 11_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 11_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 11_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 11_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 11_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 11_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 12_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 12_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 12_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 12_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 12_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 12_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 13_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 13_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 13_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 13_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 13_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 13_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 14_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 14_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 14_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 14_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 14_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 14_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 15_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 15_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 15_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 15_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 15_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 15_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 16_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 16_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 16_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 16_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 16_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 16_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 17_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 17_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 17_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 17_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 17_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 17_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 18_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 18_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 18_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 18_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 18_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 18_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 19_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 19_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 19_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 19_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 19_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 19_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 1_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 1_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 1_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 1_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 1_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 1_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 20_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 20_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 20_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 20_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 20_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 20_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 2_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 2_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 2_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 2_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 2_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 2_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 3_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 3_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 3_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 3_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 3_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 3_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 4_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 4_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 4_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 4_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 4_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 4_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 5_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 5_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 5_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 5_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 5_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 5_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 6_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 6_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 6_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 6_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 6_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 6_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 7_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 7_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 7_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 7_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 7_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 7_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 8_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 8_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 8_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 8_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 8_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 8_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 9_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 9_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 9_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 9_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 4_SAMPEL 9_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 4_SAMPEL 9_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 10_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 10_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 10_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 10_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 10_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 10_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 11_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 11_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 11_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 11_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 11_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 11_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 12_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 12_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 12_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 12_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 12_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 12_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 13_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 13_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 13_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 13_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 13_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 13_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 14_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 14_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 14_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 14_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 14_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 14_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 15_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 15_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 15_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 15_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 15_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 15_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 16_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 16_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 16_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 16_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 16_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 16_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 17_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 17_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 17_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 17_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 17_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 17_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 18_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 18_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 18_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 18_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 18_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 18_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 19_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 19_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 19_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 19_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 19_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 19_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_4.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 1_D 0.2 us_skala 5_4.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 20_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 20_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 20_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 20_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 20_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 20_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 2_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 2_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 2_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 2_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 2_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 2_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 3_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 3_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 3_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 3_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 3_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 3_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 4_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 4_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 4_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 4_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 4_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 4_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 5_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 5_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 5_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 5_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 5_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 5_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 6_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 6_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 6_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 6_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 6_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 6_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 7_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 7_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 7_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 7_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 7_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 7_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 8_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 8_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 8_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 8_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 8_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 8_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 9_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 9_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 9_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 9_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 5_SAMPEL 9_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 5_SAMPEL 9_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_4.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_4.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_5.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_5.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_6.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 1_D 0.2 us_skala 5_6.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 2_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 2_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 2_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 2_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 2_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 2_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 3_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 3_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 3_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 3_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 3_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 3_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 4_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 4_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 4_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 4_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 4_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 4_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 5_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 5_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 5_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 5_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 5_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 5_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 6_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 6_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 6_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 6_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 6_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 6_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 7_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 7_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 7_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 7_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 7_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 7_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 8_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 8_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 8_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 8_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 6_SAMPEL 8_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 6_SAMPEL 8_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 10_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 10_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 10_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 10_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 10_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 10_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 11_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 11_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 11_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 11_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 11_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 11_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 12_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 12_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 12_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 12_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 12_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 12_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 13_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 13_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 13_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 13_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 13_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 13_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 14_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 14_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 14_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 14_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 14_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 14_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 15_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 15_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 15_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 15_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 15_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 15_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 16_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 16_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 16_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 16_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 16_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 16_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 17_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 17_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 17_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 17_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 17_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 17_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 18_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 18_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 18_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 18_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 18_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 18_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 19_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 19_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 19_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 19_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 19_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 19_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 1_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 1_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 1_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 1_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 1_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 1_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 20_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 20_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 20_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 20_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 20_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 20_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 2_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 2_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 2_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 2_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 2_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 2_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 3_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 3_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 3_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 3_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 3_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 3_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 4_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 4_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 4_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 4_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 4_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 4_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 5_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 5_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 5_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 5_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 5_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 5_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 6_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 6_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 6_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 6_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 6_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 6_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 7_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 7_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 7_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 7_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 7_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 7_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 8_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 8_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 8_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 8_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 8_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 8_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 9_D 0.2 us_skala 5_1.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 9_D 0.2 us_skala 5_1.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 9_D 0.2 us_skala 5_2.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 9_D 0.2 us_skala 5_2.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/GRUP 7_SAMPEL 9_D 0.2 us_skala 5_3.asc" beforeDir="false" afterPath="$PROJECT_DIR$/data/GRUP 7_SAMPEL 9_D 0.2 us_skala 5_3.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvaluasiFitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/EvaluasiFitting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitGaussian.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/FitGaussian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitLorentz.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/FitLorentz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitVoight.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/FitVoight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEVENTH2.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/SEVENTH2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ba6.asc" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/ba6.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boltzmann_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/boltzmann_plot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boltzmann_plot_ca.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/boltzmann_plot_ca.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calibrated_spectrum.csv" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/calibrated_spectrum.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf libs.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/cf libs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detected_peaks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/detected_peaks.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eight.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/eight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fifth.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/fifth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fourth.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/fourth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identified_ca_peaks.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/identified_ca_peaks.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identified_peaks_with_labels.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/identified_peaks_with_labels.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libFit.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/libFit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ninth.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/ninth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/normalized_spectrum.asc" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/normalized_spectrum.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca_result.asc" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/pca_result.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_315.81_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_315.81_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_320.86_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_320.86_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_373.60_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_373.60_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_380.69_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_380.69_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_393.25_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_393.25_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_396.73_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_396.73_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_401.14_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_401.14_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_404.73_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_404.73_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_422.57_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_422.57_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_430.15_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_430.15_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_431.59_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_431.59_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_437.53_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_437.53_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_438.18_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_438.18_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_439.51_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_439.51_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_440.06_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_440.06_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_441.18_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_441.18_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_452.30_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_452.30_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_455.51_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_455.51_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_541.16_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_541.16_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_549.32_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_549.32_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_574.74_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_574.74_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_575.32_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_575.32_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_575.74_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_575.74_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_629.23_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_629.23_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_631.22_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_631.22_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_635.38_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_635.38_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_636.13_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_636.13_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_665.25_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_665.25_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_667.68_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_667.68_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_670.91_nm_zoome11d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_670.91_nm_zoome11d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_nan_nm_zoome55555d.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_nan_nm_zoome55555d.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peak_nan_nm_zoomed.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/peak_nan_nm_zoomed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seventh.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/seventh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sixth.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/sixth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectrum_corrected_high_res.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/spectrum_corrected_high_res.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectrum_corrected_normalized_high_res.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/spectrum_corrected_normalized_high_res.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectrum_data.asc" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/spectrum_data.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectrum_high_res.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/spectrum_high_res.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectrum_high_res_peaks.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/spectrum_high_res_peaks.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spectrum_normalized_high_res_peaks.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/spectrum_normalized_high_res_peaks.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tenth.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/tenth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/third.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,48 +470,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.EvaluasiFitting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FitGaussian.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FitGaussianLorentz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FitLorentz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FitVoight.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FitVoightGaussianLorentz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SEVENTH2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cf libs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eight.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eleven.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fifth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fourth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ninth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.second.executor&quot;: &quot;Run&quot;,
-    &quot;Python.seventh.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sixth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tenth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.third.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/birrulwalidain/PycharmProjects/CNNLIBSpython&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.EvaluasiFitting.executor": "Run",
+    "Python.FitGaussian.executor": "Run",
+    "Python.FitGaussianLorentz.executor": "Run",
+    "Python.FitLorentz.executor": "Run",
+    "Python.FitVoight.executor": "Run",
+    "Python.FitVoightGaussianLorentz.executor": "Run",
+    "Python.SEVENTH2.executor": "Run",
+    "Python.cf libs.executor": "Run",
+    "Python.eight.executor": "Run",
+    "Python.eleven.executor": "Run",
+    "Python.fifth.executor": "Run",
+    "Python.fourth.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.ninth.executor": "Run",
+    "Python.second.executor": "Run",
+    "Python.seventh.executor": "Run",
+    "Python.sixth.executor": "Run",
+    "Python.tenth.executor": "Run",
+    "Python.third.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/birrulwalidain/PycharmProjects/CNNLIBSpython/fixcode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fixcode" />
+      <recent name="$PROJECT_DIR$/expdata" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Data Telur" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/expdata" />
+      <recent name="$PROJECT_DIR$/expcode" />
+      <recent name="$PROJECT_DIR$/fixcode" />
+      <recent name="$PROJECT_DIR$/out" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="CNNLIBSpython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 (CNNLIBSpython)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -105,7 +574,11 @@
       <workItem from="1720799733355" duration="928000" />
       <workItem from="1720818458635" duration="593000" />
       <workItem from="1720863201261" duration="419000" />
-      <workItem from="1720867189151" duration="1974000" />
+      <workItem from="1720867189151" duration="3319000" />
+      <workItem from="1720883125776" duration="186000" />
+      <workItem from="1720883910707" duration="980000" />
+      <workItem from="1720886541361" duration="1017000" />
+      <workItem from="1720887563974" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -131,20 +604,20 @@
     <SUITE FILE_PATH="coverage/CNNLIBSpython$FitGaussianLorentz.coverage" NAME="FitGaussianLorentz Coverage Results" MODIFIED="1720701336991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$SEVENTH2.coverage" NAME="SEVENTH2 Coverage Results" MODIFIED="1720431917006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$fifth.coverage" NAME="fifth Coverage Results" MODIFIED="1720560287633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$cf_libs.coverage" NAME="cf libs Coverage Results" MODIFIED="1720546278440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$cf_libs.coverage" NAME="cf libs Coverage Results" MODIFIED="1720888577441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1720428950573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$third.coverage" NAME="third Coverage Results" MODIFIED="1720560259383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$eight.coverage" NAME="eight Coverage Results" MODIFIED="1720675488014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$main.coverage" NAME="main Coverage Results" MODIFIED="1720277462394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$EvaluasiFitting.coverage" NAME="EvaluasiFitting Coverage Results" MODIFIED="1720868596801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$EvaluasiFitting.coverage" NAME="EvaluasiFitting Coverage Results" MODIFIED="1720888414137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$eleven.coverage" NAME="eleven Coverage Results" MODIFIED="1720700671255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$FitVoight.coverage" NAME="FitVoight Coverage Results" MODIFIED="1720718549096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$FitVoight.coverage" NAME="FitVoight Coverage Results" MODIFIED="1720886893830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$ninth.coverage" NAME="ninth Coverage Results" MODIFIED="1720597684031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$FitVoightGaussianLorentz.coverage" NAME="FitVoightGaussianLorentz Coverage Results" MODIFIED="1720716407906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$seventh.coverage" NAME="seventh Coverage Results" MODIFIED="1720698056767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$tenth.coverage" NAME="tenth Coverage Results" MODIFIED="1720698355870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$second.coverage" NAME="second Coverage Results" MODIFIED="1720362418646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$FitGaussian.coverage" NAME="FitGaussian Coverage Results" MODIFIED="1720717236424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$FitLorentz.coverage" NAME="FitLorentz Coverage Results" MODIFIED="1720718976200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$FitLorentz.coverage" NAME="FitLorentz Coverage Results" MODIFIED="1720887735398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from scipy.signal import find_peaks, savgol_filter
 
 
@@ -7,7 +7,7 @@ from scipy.signal import find_peaks, savgol_filter
 def read_from_asc(filename):
     wavelengths = []
     intensities = []
-    with open(filename, 'r') as f:
+    with open(filename, "r") as f:
         next(f)  # Lewati baris header
         for line in f:
             if not line.strip():
@@ -55,7 +55,7 @@ def calculate_electron_density(fwhm, ion_species):
 
 
 # Nama file input
-input_filename = 'ba6.asc'
+input_filename = "../expdata/ba6.asc"
 
 # Baca data dari file ASC
 wavelengths, intensities = read_from_asc(input_filename)
@@ -66,10 +66,12 @@ background, corrected_intensities = remove_background(intensities)
 # Deteksi puncak
 height_threshold = 0.1 * np.max(corrected_intensities)
 distance_between_peaks = 5
-peaks, _ = find_peaks(corrected_intensities, height=height_threshold, distance=distance_between_peaks)
+peaks, _ = find_peaks(
+    corrected_intensities, height=height_threshold, distance=distance_between_peaks
+)
 
 # Asumsi kita tahu ion_species untuk puncak tertentu
-ion_species = 'H_alpha'  # Contoh spesies ion
+ion_species = "H_alpha"  # Contoh spesies ion
 
 # Hitung densitas elektron untuk setiap puncak yang terdeteksi
 for peak in peaks:
@@ -79,15 +81,24 @@ for peak in peaks:
         plt.figure(figsize=(6, 4))
         start = max(0, peak - 10)
         end = min(len(wavelengths), peak + 10)
-        plt.plot(wavelengths[start:end], corrected_intensities[start:end], label='Spektrum tanpa Latar Belakang')
-        plt.plot(wavelengths[peak], corrected_intensities[peak], 'rx')
-        plt.xlabel('Panjang Gelombang (nm)')
-        plt.ylabel('Intensitas')
+        plt.plot(
+            wavelengths[start:end],
+            corrected_intensities[start:end],
+            label="Spektrum tanpa Latar Belakang",
+        )
+        plt.plot(wavelengths[peak], corrected_intensities[peak], "rx")
+        plt.xlabel("Panjang Gelombang (nm)")
+        plt.ylabel("Intensitas")
         plt.title(
-            f'Puncak pada Panjang Gelombang {wavelengths[peak]:.2f} nm\nDensitas Elektron: {electron_density:.2e} cm^-3')
+            f"Puncak pada Panjang Gelombang {wavelengths[peak]:.2f} nm\nDensitas Elektron: {electron_density:.2e} cm^-3"
+        )
         plt.legend()
         plt.grid(True)
-        plt.savefig(f'peak_{wavelengths[peak]:.2f}_nm_electron_density.pdf', format='pdf', dpi=300)
+        plt.savefig(
+            f"peak_{wavelengths[peak]:.2f}_nm_electron_density.pdf",
+            format="pdf",
+            dpi=300,
+        )
         plt.close()
 
 print("Densitas elektron telah dihitung dan gambar telah disimpan dalam format PDF.")

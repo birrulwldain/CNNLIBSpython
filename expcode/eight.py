@@ -1,13 +1,14 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from scipy.signal import find_peaks, savgol_filter
 from scipy.stats import linregress
+
 
 # Fungsi untuk membaca data dari file ASC
 def read_from_asc(filename):
     wavelengths = []
     intensities = []
-    with open(filename, 'r') as f:
+    with open(filename, "r") as f:
         next(f)  # Lewati baris header
         for line in f:
             if not line.strip():
@@ -20,29 +21,32 @@ def read_from_asc(filename):
             intensities.append(float(inten))
     return np.array(wavelengths), np.array(intensities)
 
+
 # Fungsi untuk menghapus sinyal latar belakang
 def remove_background(intensities, window_length=51, polyorder=3):
     background = savgol_filter(intensities, window_length, polyorder)
     corrected_intensities = intensities - background
     return background, corrected_intensities
 
+
 # Fungsi untuk mengukur intensitas puncak
 def measure_intensity(wavelengths, intensities, peak_index):
     return intensities[peak_index]
 
-# Data tingkat energi dan faktor partisi untuk Ca II
+
+# data tingkat energi dan faktor partisi untuk Ca II
 levels = [
-    {'wavelength': 393.37, 'E': 3.15, 'g': 6},
-    {'wavelength': 396.85, 'E': 3.12, 'g': 4},
-    {'wavelength': 422.67, 'E': 3.20, 'g': 4},
-    {'wavelength': 428.30, 'E': 3.23, 'g': 6}
+    {"wavelength": 393.37, "E": 3.15, "g": 6},
+    {"wavelength": 396.85, "E": 3.12, "g": 4},
+    {"wavelength": 422.67, "E": 3.20, "g": 4},
+    {"wavelength": 428.30, "E": 3.23, "g": 6},
 ]
 
 # Konstanta
 k_B = 8.617333262145e-5  # eV/K
 
 # Nama file input
-input_filename = 'spectrum_data.asc'
+input_filename = "../expdata/spectrum_data.asc"
 
 # Baca data dari file ASC
 wavelengths, intensities = read_from_asc(input_filename)
@@ -53,32 +57,36 @@ background, corrected_intensities = remove_background(intensities)
 # Deteksi puncak
 height_threshold = 0.1 * np.max(corrected_intensities)
 distance_between_peaks = 5
-peaks, _ = find_peaks(corrected_intensities, height=height_threshold, distance=distance_between_peaks)
+peaks, _ = find_peaks(
+    corrected_intensities, height=height_threshold, distance=distance_between_peaks
+)
 
 # Identifikasi puncak yang sesuai dengan spektrum Ca
 identified_peaks = []
 for level in levels:
-    ca_wl = level['wavelength']
+    ca_wl = level["wavelength"]
     peak_index = np.argmin(np.abs(wavelengths[peaks] - ca_wl))
     if np.abs(wavelengths[peaks][peak_index] - ca_wl) < 1:  # Toleransi kesesuaian
         identified_peaks.append(peaks[peak_index])
-        level['intensity'] = corrected_intensities[peaks[peak_index]]
+        level["intensity"] = corrected_intensities[peaks[peak_index]]
 
 # Hitung fungsi Boltzmann
 ln_I_over_g = []
 inverse_E = []
 for level in levels:
-    if 'intensity' in level:
-        I = level['intensity']
-        g = level['g']
-        E = level['E']
+    if "intensity" in level:
+        I = level["intensity"]
+        g = level["g"]
+        E = level["E"]
         if I > 0:
             ln_I_over_g.append(np.log(I / g))
             inverse_E.append(1 / (k_B * E))
 
 # Periksa apakah ada cukup data untuk melakukan regresi linier
 if len(ln_I_over_g) < 2:
-    raise ValueError("Tidak cukup data untuk melakukan regresi linier. Pastikan data intensitas valid dan memiliki variasi dalam nilai energi.")
+    raise ValueError(
+        "Tidak cukup data untuk melakukan regresi linier. Pastikan data intensitas valid dan memiliki variasi dalam nilai energi."
+    )
 
 # Plot Boltzmann
 ln_I_over_g = np.array(ln_I_over_g)
@@ -87,14 +95,14 @@ slope, intercept, r_value, p_value, std_err = linregress(inverse_E, ln_I_over_g)
 T_e = -1 / slope
 
 plt.figure(figsize=(8, 6))
-plt.plot(inverse_E, ln_I_over_g, 'o', label='Data')
-plt.plot(inverse_E, slope * inverse_E + intercept, '-', label=f'Fit: T_e = {T_e:.2f} K')
-plt.xlabel('1 / (k_B * E) (1/eV)')
-plt.ylabel('ln(I/g)')
+plt.plot(inverse_E, ln_I_over_g, "o", label="data")
+plt.plot(inverse_E, slope * inverse_E + intercept, "-", label=f"Fit: T_e = {T_e:.2f} K")
+plt.xlabel("1 / (k_B * E) (1/eV)")
+plt.ylabel("ln(I/g)")
 plt.legend()
 plt.grid(True)
-plt.title('Boltzmann Plot untuk Penghitungan Suhu Plasma')
-plt.savefig('boltzmann_plot_ca.pdf', format='pdf', dpi=300)
+plt.title("Boltzmann Plot untuk Penghitungan Suhu Plasma")
+plt.savefig("boltzmann_plot_ca.pdf", format="pdf", dpi=300)
 plt.show()
 
 print(f"Suhu plasma yang dihitung: {T_e:.2f} K")
@@ -102,7 +110,7 @@ print(f"Suhu plasma yang dihitung: {T_e:.2f} K")
 # Hitung Densitas Elektron menggunakan Pelebaran Stark
 # Asumsikan bahwa kita memiliki informasi pelebaran Stark untuk garis 422.67 nm
 # Delta_lambda (peleburan Stark) diukur dalam nm
-Delta_lambda = 0.05  #FWHM
+Delta_lambda = 0.05  # FWHM
 
 # Konstanta untuk Stark broadening
 e = 1.602176634e-19  # Muatan elektron dalam Coulomb

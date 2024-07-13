@@ -1,11 +1,13 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from scipy.signal import find_peaks
 
 
 # Fungsi untuk membaca file ASC
 def read_asc_file(file_path):
-    data = np.loadtxt(file_path, skiprows=1)  # Membaca file ASC, melewati baris pertama jika perlu
+    data = np.loadtxt(
+        file_path, skiprows=1
+    )  # Membaca file ASC, melewati baris pertama jika perlu
     wavelength = data[:, 0]
     intensity = data[:, 1]
     return wavelength, intensity
@@ -19,7 +21,7 @@ def calculate_noise(intensity, noise_region_indices):
 
 
 # File ASC yang akan dibaca
-file_path = 'Data/Cu plate_skala 5_D 1 us_1.asc'
+file_path = "../data/Cu plate_skala 5_D 1 us_1.asc"
 
 # Membaca data spektral dari file ASC
 wavelength, intensity = read_asc_file(file_path)
@@ -38,7 +40,9 @@ height_threshold = sn_threshold * noise
 min_peak_distance = 10  # Sesuaikan dengan data spektral
 
 # Identifikasi puncak yang melebihi height threshold dan memenuhi jarak minimum antar puncak
-peaks, properties = find_peaks(intensity, height=height_threshold, distance=min_peak_distance)
+peaks, properties = find_peaks(
+    intensity, height=height_threshold, distance=min_peak_distance
+)
 
 # Identifikasi puncak terendah
 if len(peaks) > 0:
@@ -49,11 +53,11 @@ else:
     lowest_peak = None
 
 # Plot data spektral dan puncak yang teridentifikasi
-plt.plot(wavelength, intensity, label='Spektrum LIBS')
-plt.plot(wavelength[peaks], intensity[peaks], 'x', label='Puncak')
-plt.axhline(y=height_threshold, color='r', linestyle='--', label='Ambang S/N = 3')
-plt.xlabel('Panjang Gelombang (nm)')
-plt.ylabel('Intensitas')
+plt.plot(wavelength, intensity, label="Spektrum LIBS")
+plt.plot(wavelength[peaks], intensity[peaks], "x", label="Puncak")
+plt.axhline(y=height_threshold, color="r", linestyle="--", label="Ambang S/N = 3")
+plt.xlabel("Panjang Gelombang (nm)")
+plt.ylabel("Intensitas")
 plt.legend()
 plt.show()
 
@@ -66,11 +70,13 @@ if lowest_peak is not None:
 
     zoom_indices = (wavelength >= min_wavelength) & (wavelength <= max_wavelength)
 
-    plt.plot(wavelength[zoom_indices], intensity[zoom_indices], label='Spektrum LIBS')
-    plt.plot(wavelength[lowest_peak], intensity[lowest_peak], 'rx', label='Puncak Terendah')
-    plt.xlabel('Panjang Gelombang (nm)')
-    plt.ylabel('Intensitas')
-    plt.title(f'Puncak Terendah pada {wavelength[lowest_peak]:.2f} nm')
+    plt.plot(wavelength[zoom_indices], intensity[zoom_indices], label="Spektrum LIBS")
+    plt.plot(
+        wavelength[lowest_peak], intensity[lowest_peak], "rx", label="Puncak Terendah"
+    )
+    plt.xlabel("Panjang Gelombang (nm)")
+    plt.ylabel("Intensitas")
+    plt.title(f"Puncak Terendah pada {wavelength[lowest_peak]:.2f} nm")
     plt.legend()
     plt.show()
 else:
