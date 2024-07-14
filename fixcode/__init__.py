@@ -1,2 +1,2 @@
 # __init__.py
-print("Initializing the package...")
+print("bentar di cek")

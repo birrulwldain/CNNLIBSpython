@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 from scipy.signal import find_peaks, savgol_filter
+
+from fixcode.checkpeaknist import read_nist_csv
 
 
 # Fungsi untuk membaca data dari file ASC
@@ -20,16 +21,6 @@ def read_from_asc(filename):
             wavelengths.append(float(wl))
             intensities.append(float(inten))
     return np.array(wavelengths), np.array(intensities)
-
-
-# Fungsi untuk membaca data dari file CSV NIST
-def read_nist_csv(filename):
-    nist_data = pd.read_csv(filename)
-    nist_wavelengths = nist_data["obs_wl_air(nm)"].values.astype(
-        float
-    )  # Konversi ke float
-    nist_intensities = nist_data["intens"].values
-    return nist_wavelengths, nist_intensities
 
 
 # Fungsi untuk menghapus sinyal latar belakang
@@ -65,7 +56,9 @@ wavelengths, intensities = read_from_asc(input_filename)
 nist_filename = "expdata/CaI-CaII.csv"
 
 # Baca data dari file CSV NIST untuk kalsium
-nist_wavelengths, nist_intensities = read_nist_csv(nist_filename)
+nist_wavelengths, nist_intensities, nist_element, nist_num = read_nist_csv(
+    nist_filename
+)
 
 # Hapus sinyal latar belakang
 background, corrected_intensities = remove_background(intensities)
