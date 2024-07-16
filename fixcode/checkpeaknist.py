@@ -65,7 +65,7 @@ def identify_peaks(
     nist_intensities,
     nist_elements,
     nist_num,
-    tolerance=0.1,
+    tolerance=0.0001,
 ):
     identified_peaks = []
     for wl, inten in zip(measured_wavelengths, measured_intensities):

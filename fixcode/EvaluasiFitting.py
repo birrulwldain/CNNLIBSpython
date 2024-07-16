@@ -22,7 +22,7 @@ def estimate_noise(intensity):
     return noise
 
 
-dataasc = "GRUP 1_SAMPEL 1_D 0.2 us_skala 5_2.asc"
+dataasc = "Cu plate_skala 5_D 1 us_2.asc"
 
 # Membaca data spektral dari file ASC
 wavelength, intensity = read_asc_file(dataasc)

@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8693a1d0-a42f-4e5a-ad15-cd90dda07b8e" name="Changes" comment="fix 2, fix chechk seluruh spektrum untuk data NIST beta 1">
-      <change afterPath="$PROJECT_DIR$/fixcode/Te.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixcode/densel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixcode/kalibrasi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG_2616.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/GRUP_1_SAMPEL_3_D_kalibrasi.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expcode/hitfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixcode/globtes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grouped_files.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spektrum_kalibrasi.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expcode/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/expcode/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expdata/CaI-CaII.csv" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/CaI-CaII.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expdata/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/expdata/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixcode/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixcode/cf libs.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/cf libs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_.asc" beforeDir="false" afterPath="$PROJECT_DIR$/GRUP 3_SAMPEL 6_D 0.2 us_skala 5_.asc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixcode/EvaluasiFitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/EvaluasiFitting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixcode/checkpeaknist.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/checkpeaknist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixcode/kalibrasi.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixcode/kalibrasi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,9 @@
     "Python.eleven.executor": "Run",
     "Python.fifth.executor": "Run",
     "Python.fourth.executor": "Run",
+    "Python.globtes.executor": "Run",
+    "Python.hitfile.executor": "Run",
+    "Python.kalibrasi.executor": "Run",
     "Python.main.executor": "Run",
     "Python.ninth.executor": "Run",
     "Python.second.executor": "Run",
@@ -102,10 +106,10 @@
       <recent name="$PROJECT_DIR$/Data Telur" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/expcode" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/expdata" />
       <recent name="$PROJECT_DIR$/fixcode" />
+      <recent name="$PROJECT_DIR$/expcode" />
+      <recent name="$PROJECT_DIR$/expdata" />
       <recent name="$PROJECT_DIR$/out" />
     </key>
   </component>
@@ -176,7 +180,13 @@
       <workItem from="1720908576374" duration="3755000" />
       <workItem from="1720955894417" duration="1221000" />
       <workItem from="1720959646793" duration="1889000" />
-      <workItem from="1720967614907" duration="2611000" />
+      <workItem from="1720967614907" duration="5279000" />
+      <workItem from="1720977942819" duration="1935000" />
+      <workItem from="1720982951065" duration="234000" />
+      <workItem from="1721045483951" duration="59000" />
+      <workItem from="1721080503371" duration="775000" />
+      <workItem from="1721081970958" duration="1804000" />
+      <workItem from="1721083873346" duration="2307000" />
     </task>
     <task id="LOCAL-00001" summary="update rapi">
       <option name="closed" value="true" />
@@ -250,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720902188572</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix 2, fix chechk seluruh spektrum untuk data NIST beta 1">
+      <option name="closed" value="true" />
+      <created>1720970405551</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720970405551</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolsProjectConfig">
@@ -286,31 +304,39 @@
           <url>file://$PROJECT_DIR$/fixcode/FitVoight.py</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/expcode/hitfile.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CNNLIBSpython$sixth.coverage" NAME="sixth Coverage Results" MODIFIED="1720429444161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$densel.coverage" NAME="densel Coverage Results" MODIFIED="1720968864118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$FitGaussianLorentz.coverage" NAME="FitGaussianLorentz Coverage Results" MODIFIED="1720701336991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$SEVENTH2.coverage" NAME="SEVENTH2 Coverage Results" MODIFIED="1720431917006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$fifth.coverage" NAME="fifth Coverage Results" MODIFIED="1720560287633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$cf_libs.coverage" NAME="cf libs Coverage Results" MODIFIED="1720959884808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1720428950573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$third.coverage" NAME="third Coverage Results" MODIFIED="1720560259383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$Te.coverage" NAME="Te Coverage Results" MODIFIED="1720969209786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$eight.coverage" NAME="eight Coverage Results" MODIFIED="1720902063511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$main.coverage" NAME="main Coverage Results" MODIFIED="1720277462394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$EvaluasiFitting.coverage" NAME="EvaluasiFitting Coverage Results" MODIFIED="1720963855129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$eleven.coverage" NAME="eleven Coverage Results" MODIFIED="1720700671255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$checkpeaknist.coverage" NAME="checkpeaknist Coverage Results" MODIFIED="1720967802528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$FitVoight.coverage" NAME="FitVoight Coverage Results" MODIFIED="1720895530962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNNLIBSpython$ninth.coverage" NAME="ninth Coverage Results" MODIFIED="1720597684031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$EvaluasiFitting.coverage" NAME="EvaluasiFitting Coverage Results" MODIFIED="1721084994969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$FitVoightGaussianLorentz.coverage" NAME="FitVoightGaussianLorentz Coverage Results" MODIFIED="1720716407906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$seventh.coverage" NAME="seventh Coverage Results" MODIFIED="1720698056767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$tenth.coverage" NAME="tenth Coverage Results" MODIFIED="1720698355870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$second.coverage" NAME="second Coverage Results" MODIFIED="1720362418646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$FitLorentz.coverage" NAME="FitLorentz Coverage Results" MODIFIED="1720895586335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNNLIBSpython$FitGaussian.coverage" NAME="FitGaussian Coverage Results" MODIFIED="1720895709870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$densel.coverage" NAME="densel Coverage Results" MODIFIED="1720972115053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$hitfile.coverage" NAME="hitfile Coverage Results" MODIFIED="1721085752950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$cf_libs.coverage" NAME="cf libs Coverage Results" MODIFIED="1720959884808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$globtes.coverage" NAME="globtes Coverage Results" MODIFIED="1721084588211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$Te.coverage" NAME="Te Coverage Results" MODIFIED="1720969209786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$kalibrasi.coverage" NAME="kalibrasi Coverage Results" MODIFIED="1720972214097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$eight.coverage" NAME="eight Coverage Results" MODIFIED="1720902063511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$main.coverage" NAME="main Coverage Results" MODIFIED="1720277462394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$eleven.coverage" NAME="eleven Coverage Results" MODIFIED="1720700671255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$checkpeaknist.coverage" NAME="checkpeaknist Coverage Results" MODIFIED="1720972380426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$FitVoight.coverage" NAME="FitVoight Coverage Results" MODIFIED="1720895530962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNNLIBSpython$ninth.coverage" NAME="ninth Coverage Results" MODIFIED="1720597684031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
